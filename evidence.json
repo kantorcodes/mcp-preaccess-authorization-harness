@@ -1,0 +1,450 @@
+{
+  "harness_version": "0.1.0",
+  "date_utc": "2026-10-28T22:39:23Z",
+  "runtime": {
+    "python": "3.13.5",
+    "dependencies": "stdlib only"
+  },
+  "protocol_target": "2026-07-28",
+  "scope": "synthetic deterministic HTTP boundary fixture; not a conformant MCP implementation; no industrial safety claims",
+  "cases": [
+    {
+      "repeat": 1,
+      "case": "authorized-read",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 1,
+      "case": "authorized-write",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 1,
+      "case": "deliberate-permissive-baseline",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 1,
+      "case": "cross-site-write",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "insufficient-rights",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "out-of-range",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "missing-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "unknown-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "wrong-issuer",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "wrong-audience",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "expired",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "header-name-mismatch",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "header-method-missing",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 1,
+      "case": "direct-target-without-credential",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "repeat": 1,
+      "case": "policy-unavailable",
+      "status": 503,
+      "pass": true
+    },
+    {
+      "repeat": 1,
+      "case": "revoked-grant",
+      "status": 401,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "authorized-read",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "authorized-write",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "deliberate-permissive-baseline",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "cross-site-write",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "insufficient-rights",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "out-of-range",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "missing-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "unknown-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "wrong-issuer",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "wrong-audience",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "expired",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "header-name-mismatch",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "header-method-missing",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 2,
+      "case": "direct-target-without-credential",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "policy-unavailable",
+      "status": 503,
+      "pass": true
+    },
+    {
+      "repeat": 2,
+      "case": "revoked-grant",
+      "status": 401,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "authorized-read",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "authorized-write",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "deliberate-permissive-baseline",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "cross-site-write",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "insufficient-rights",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "out-of-range",
+      "status": 403,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "missing-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "unknown-credential",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "wrong-issuer",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "wrong-audience",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "expired",
+      "status": 401,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "header-name-mismatch",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "header-method-missing",
+      "status": 400,
+      "pass": true,
+      "target_unchanged": true
+    },
+    {
+      "repeat": 3,
+      "case": "direct-target-without-credential",
+      "status": 403,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "policy-unavailable",
+      "status": 503,
+      "pass": true
+    },
+    {
+      "repeat": 3,
+      "case": "revoked-grant",
+      "status": 401,
+      "pass": true
+    }
+  ],
+  "case_total": 48,
+  "all_passed": true,
+  "target_log_last_repeat": [
+    {
+      "request_id": "r3-read",
+      "site": "A",
+      "operation": "read",
+      "before": 10,
+      "after": 10,
+      "principal": "test-target-service"
+    },
+    {
+      "request_id": "r3-write",
+      "site": "A",
+      "operation": "write",
+      "before": 10,
+      "after": 31,
+      "principal": "test-target-service"
+    },
+    {
+      "request_id": "r3-baseline",
+      "site": "B",
+      "operation": "write",
+      "before": 20,
+      "after": 32,
+      "principal": "test-target-service"
+    }
+  ],
+  "gateway_log_last_repeat": [
+    {
+      "request_id": "r3-read",
+      "decision": "allow",
+      "site": "A",
+      "operation": "read",
+      "target_status": 200
+    },
+    {
+      "request_id": "r3-write",
+      "decision": "allow",
+      "site": "A",
+      "operation": "write",
+      "target_status": 200
+    },
+    {
+      "request_id": "r3-baseline",
+      "decision": "allow",
+      "site": "B",
+      "operation": "write",
+      "target_status": 200
+    },
+    {
+      "request_id": "r3-cross-site-write",
+      "decision": "deny",
+      "reason": "site outside grant"
+    },
+    {
+      "request_id": "r3-insufficient-rights",
+      "decision": "deny",
+      "reason": "operation outside grant"
+    },
+    {
+      "request_id": "r3-out-of-range",
+      "decision": "deny",
+      "reason": "parameter outside allowed range"
+    },
+    {
+      "request_id": "r3-missing-credential",
+      "decision": "deny",
+      "reason": "missing bearer credential"
+    },
+    {
+      "request_id": "r3-unknown-credential",
+      "decision": "deny",
+      "reason": "invalid issuer, audience, expiry or token"
+    },
+    {
+      "request_id": "r3-wrong-issuer",
+      "decision": "deny",
+      "reason": "invalid issuer, audience, expiry or token"
+    },
+    {
+      "request_id": "r3-wrong-audience",
+      "decision": "deny",
+      "reason": "invalid issuer, audience, expiry or token"
+    },
+    {
+      "request_id": "r3-expired",
+      "decision": "deny",
+      "reason": "invalid issuer, audience, expiry or token"
+    },
+    {
+      "request_id": "r3-header-name-mismatch",
+      "decision": "deny",
+      "reason": "header/body mismatch"
+    },
+    {
+      "request_id": "r3-header-method-missing",
+      "decision": "deny",
+      "reason": "missing required mirrored header"
+    },
+    {
+      "request_id": "r3-policy-offline",
+      "decision": "deny",
+      "reason": "policy unavailable: fail closed"
+    },
+    {
+      "request_id": "r3-revoked",
+      "decision": "deny",
+      "reason": "invalid issuer, audience, expiry or token"
+    }
+  ],
+  "no_async_queue": true,
+  "observation_seconds": 1,
+  "approval_reuse": "not applicable: no approval artifact or approval service exists",
+  "limitations": [
+    "Opaque grant registry models introspection, not a real OAuth server",
+    "Only loopback mock HTTP/JSON-RPC subset, no deployed MCP SDK interoperability",
+    "No asynchronous target tasks, retries or model/prompt injection exercised",
+    "Three repetitions are demonstrations, not reliability estimates"
+  ]
+}
